@@ -1,0 +1,6 @@
+input, select{
+    height: 50px;
+}
+select{
+    -webkit-appearance: auto!important;
+}

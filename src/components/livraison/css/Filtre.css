@@ -1,0 +1,57 @@
+.checkbox{
+    width: 45px;
+    height: 1.5rem;
+    padding: calc(0.25rem - 1px);
+    border-radius: .75rem;    
+    cursor: pointer;
+}
+.bg-black{
+    background-color: #0a3847;
+}
+.bg-blue{
+    background-color: #1574f5;
+}
+.check{
+    background-color: white;
+    width: 19px;
+    height: 19px;
+}
+#ouvert{
+    position: absolute;
+}
+#ouvert .check{
+    visibility: hidden;
+}
+#ouvert:checked + .check{
+    background-color: white;
+    color: #1574f5;
+    transform: translateX(20px);
+    visibility: visible;
+}
+#gratuit{
+    position: absolute;
+}
+#gratuit .check{
+    visibility: hidden;
+}
+#gratuit:checked + .check{
+    background-color: white;
+    color: #1574f5;
+    transform: translateX(20px);
+    visibility: visible;
+}
+.item > div h3{
+    font-size: 1.125rem;
+}
+.fs-icon{
+    margin-left: 4px;
+    margin-bottom: 4px;
+    font-size: 12px;
+}
+.color-blue{
+    color: #1574f5;
+}
+.fs-radio{
+    width: 22px;
+    height: 16px;
+}

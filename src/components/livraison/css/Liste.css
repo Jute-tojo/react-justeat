@@ -1,0 +1,22 @@
+.img-back{
+    width: 200px;
+    height: 100%;
+    float: left;
+    margin-right: 45px;
+}
+.img-back img{
+    object-fit: cover;
+}
+.text-containt{
+    margin-top: 20px;
+}
+.color-gris{
+    color: #666;
+}
+a{
+    text-decoration: none!important;
+    color: #0a3847!important;
+}
+img{
+    height: 100%;
+}

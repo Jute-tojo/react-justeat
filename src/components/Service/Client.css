@@ -1,0 +1,34 @@
+.rond{
+    border-radius: 1.2rem!important;
+    margin: 3px 10px;
+}
+.font{
+    font-size: 1.5em;
+}
+
+.fonte{
+    font-size: 1em;
+}
+
+.just{
+    font-size: 0.5cm;
+}
+
+.eat a{
+    font-size: 14px;
+    color: black;
+}
+.links a{
+    color: white!important;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.copyright{
+    color: white;
+}
+footer{
+    background-color: #0a3847;
+}
+.btn-primary {
+    color: #fff!important;
+}

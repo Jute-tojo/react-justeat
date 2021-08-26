@@ -1,0 +1,85 @@
+.bg-justeat{
+    background-color: #ff8000;
+}
+.logo-just{
+    width: 130px;
+}
+.logo-just-take{
+    width: 150px;
+}
+.fs-conx{
+    font-size: 13px;
+}
+header{
+    position: relative;
+    z-index: 10;
+    height: 4.5rem;
+    padding: 1rem;
+    color: #fff;
+}
+.head{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+}
+.barnav{
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-flow: row nowrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 100%;
+}
+.head-start{
+    display: flex;
+    -webkit-box-flex: 1;
+    flex: 1 1 20%;
+}
+.head-back{
+    align-self: center;
+}
+.head-center{
+    max-width: 60%;
+}
+.head-center > div{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: relative;
+}
+.head-center div span {
+    border-bottom: 2px solid #fff;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.head-end{
+    display: flex;
+    flex: 1 1 20%;
+    justify-content: flex-end;
+}
+.flag{
+    font-size: 23px!important;
+    margin-top: -4px;
+}
+.fs-20{
+    font-size: 20px!important;
+}
+.logo-justeat{
+    background: #ff8000;
+    color: #fff;
+}
+.pointer{
+    cursor: pointer;
+}
+.modal-content{
+    background-color: #ff8000!important;
+}
+.ml--33{
+    margin-left: -33px;
+}
+.fermer{
+    position: absolute;
+    top: 0;
+    right: 10px;
+}

@@ -1,0 +1,356 @@
+.header{
+	background-color: #ff8000;
+    margin: -1px auto;
+    text-align: center;
+    padding: 11px 15px 0;
+    max-width: 631px;
+}
+.header__title {
+    font-family: Takeaway Sans Campaign,Avant Garde,Century Gothic,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    font-variant-ligatures: common-ligatures;
+    font-feature-settings: "liga","clig";
+    color: #fff;
+    font-size: 62px;
+    line-height: 1;
+    margin-bottom: 0;
+}
+.header__subtitle {
+    font-family: Takeaway Sans,Avant Garde,Century Gothic,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+}
+.header-container .header-top {
+    width: 100%;
+    background-color: #ff8000;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+    outline: 0;
+}
+.clear {
+    clear: both;
+}
+.lp {
+    font-size: 14px;
+    display: flex;
+    position: relative;
+    text-align: left;
+    box-shadow: 0 0 4px 0 rgb(0 0 0 / 25%);
+}
+.lp__container {
+    flex-grow: 1;
+}
+.lp * {
+    box-sizing: border-box;
+}
+.lp__container .lp__input {
+    font-family: Takeaway Sans,Avant Garde,Century Gothic,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    background-color: #fff;
+    font-size: 15px;
+    width: 100%;
+    -webkit-appearance: none;
+    height: 3rem;
+    border-radius: 2px 0 0 2px;
+    padding: 0 1rem 0 2.7rem;
+    outline: none;
+}
+.deliveryareaerror {
+    font-family: Takeaway Sans,Avant Garde,Century Gothic,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    display: none;
+    position: absolute;
+    top: 3rem;
+    padding: 1rem;
+    border-radius: 5px;
+    z-index: 200;
+    background-color: rgba(58,58,58,.8);
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    width: 90%;
+    margin: 2rem auto 0;
+}
+.lp__container .lp__input-close {
+    display: none;
+}
+.lp__search-button {
+    font-family: Takeaway Sans,Avant Garde,Century Gothic,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    display: inline-block;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #1574f5;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #1574f5;
+    border-radius: 0 2px 2px 0;
+    padding: 0 21px;
+    white-space: nowrap;
+	text-decoration: none;
+}
+a {
+    cursor: pointer;
+    outline: 0;
+    color: #1574f5;
+    text-decoration: none;
+}
+.lp__places-container {
+    font-family: Takeaway Sans,Avant Garde,Century Gothic,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    display: none;
+    position: absolute;
+    padding: 0 1.5rem 1.5rem;
+    top: 2.9rem;
+    left: 0;
+    z-index: 10;
+    background-color: #fff;
+    width: 100%;
+    min-height: 50px;
+    border-radius: 0 0 2px 2px;
+    border-top: 1px solid #f8f5f2;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 25%);
+    box-shadow: 0 4px 4px -2px rgb(0 0 0 / 5%), 4px 4px 4px -4px rgb(0 0 0 / 25%), -4px 4px 4px -4px rgb(0 0 0 / 25%);
+}
+.lp {
+    font-size: 14px;
+    display: flex;
+    position: relative;
+    text-align: left;
+    box-shadow: 0 0 4px 0 rgb(0 0 0 / 25%);
+}
+.subheader {
+    position: relative;
+    height: 665px;
+}
+.subheader__slope {
+    position: absolute;
+    width: 100%;
+    height: 9vw;
+    top: -1px;
+    overflow: hidden;
+    clip-path: polygon(0 0,0 100%,100% 0,100% 0);
+    -webkit-clip-path: polygon(0 0,100% 0,100% 0,0 100%);
+    background: #ff8000;
+}
+.subheader__image {
+    max-height: 70vw;
+    height: calc(100vh - 301px);
+    background-repeat: no-repeat;
+    background-position-y: calc(49% - 9vw);
+    height: 70vw;
+    background-size: 100%;
+    background-position-x: 50%;
+}
+.userpanel {
+    font-family: Takeaway Sans,Avant Garde,Century Gothic,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+    display: none;
+    background: rgba(0,0,0,.4);
+}
+.userpanel .inner {
+    position: fixed;
+    display: -ms-flexbox;
+    display: flex;
+    top: 0;
+    left: 0;
+    background-color: #f8f5f2;
+    z-index: 15;
+    transition: none;
+    border-radius: 2px;
+}
+.userpanel .modal-wrapper {
+    position: relative;
+    transition: none;
+    width: 100%;
+}
+.userpanel .modal-content {
+    width: 100%;
+    height: 100%;
+}
+.userpanel__wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    width: 100%;
+    height: 100%;
+    visibility: hidden!important;
+}
+.steps-inner {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1020px;
+    height: 100%;
+    padding: 60px 0;
+    overflow: hidden;
+}
+.steps-inner .steps-btn {
+    position: absolute;
+    font-size: 60px;
+    top: 45%;
+    z-index: 5;
+}
+.steps-inner .steps-btn-backward, .steps-inner .steps-btn-forward {
+    text-align: center;
+    cursor: pointer;
+    color: #666;
+    font-size: 50px;
+    width: 32px;
+    height: 50px;
+    line-height: 50px;
+}
+.steps-inner .steps-btn {
+    position: absolute;
+    font-size: 60px;
+    top: 45%;
+    z-index: 5;
+}
+.steps-inner .steps-btn-forward {
+    right: 0;
+}
+.steps-inner .steps-btn-backward, .steps-inner .steps-btn-forward {
+    text-align: center;
+    cursor: pointer;
+    color: #666;
+    font-size: 50px;
+    width: 32px;
+    height: 50px;
+    line-height: 50px;
+}
+.steps-inner .steps-subheadline {
+    margin: 8px 0 16px;
+    color: #0a3847;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}
+.steps-inner .steps-mainheadline {
+    font-family: Takeaway Sans,Avant Garde,Century Gothic,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    margin: 8px 0 16px;
+    color: #ff8000;
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+.step-headline {
+    font-family: Takeaway Sans,Avant Garde,Century Gothic,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    position: relative;
+    display: block;
+    margin: 8px 0 16px;
+    color: #0a3847;
+    font-size: 18px;
+    text-align: center;
+}
+.icon-marker{
+	font-size: 70px;
+}
+.content-apps {
+    width: 100%;
+    height: 100%;
+    background-position: 50%;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content-apps--static-background {
+    background-color: #ff8000;
+}
+.content-apps .apps-inner {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1020px;
+    height: 100%;
+    padding: 60px 20px;
+}
+@media (min-width: 1004px){
+	.content-apps .apps-text-inner {
+		max-width: 750px;
+	}
+}
+
+@media (min-width: 570px){
+	.content-apps .apps-text-inner {
+		max-width: 60%;
+	}
+}
+@media (min-width: 1004px){
+	.content-apps .apps-logos {
+		margin-bottom: 55px;
+	}
+}
+
+@media (min-width: 1004px){
+	.content-apps .apps-logos {
+		min-height: 0;
+	}
+}
+
+.content-apps .apps-logos {
+    min-height: 150px;
+}
+@media (min-width: 570px){
+	.content-apps .apps-static-image {
+		min-width: 325px;
+	}
+}
+
+.content-apps .apps-static-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 33%;
+    padding-left: 50px;
+    min-width: 220px;
+}
+.content-apps .apps-headline {
+    font-family: Takeaway Sans,Avant Garde,Century Gothic,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    width: 80%;
+    margin: 8px 0 16px;
+    font-size: 20px;
+    text-align: left;
+}
+.content-apps .apps-headline {
+    font-family: Takeaway Sans,Avant Garde,Century Gothic,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    width: 80%;
+    margin: 8px 0 16px;
+    font-size: 20px;
+    text-align: left;
+}
+.content-apps .apps-static-image img {
+    width: 100%;
+}
+ul{
+	list-style-type: none;
+}
+.fs-check{
+	font-size: 23px;
+}
+.list p{
+	margin-bottom: 30px;
+}
+ 

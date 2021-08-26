@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Web / Icons / Consumer / Flag / Deutsch</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <pattern id="pattern-1" patternUnits="objectBoundingBox" x="0%" width="100%" height="100%">
+            <use xlink:href="#image-2" transform="scale(0.1875,0.1875)"></use>
+        </pattern>
+        <image id="image-2" width="96" height="96" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABGdBTUEAALGN5fIAKQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAYKADAAQAAAABAAAAYAAAAACK+310AAABc0lEQVR4Ae3dsQ0CQRDF0F0YiUroP7sm6II2CA4CenjBGYnYyJ4vXQLstdb5e/dCBm6IG/ZvoAD4FApQAGwA41tAAbABjG8BBcAGML4FFAAbwPgWUABsAONbQAGwAYxvAQXABjC+BRQAG8D4FlAAbADjW0ABsAGMbwEFwAYwvgUUABvA+BZQAGwA41tAAbABjJ87/gBXx++j7wfQG9jvAtAA86H44D0F4RsoQAGwAYxvAQXABjC+BRQAG8D4FlAAbADjW0ABsAGMbwEFwAYwvgUUABvA+BZQAGwA41tAAbABjG8BBcAGML4FFAAbwPgWUABsAONbQAGwAYyffjrdFpjH036Aq9P3+er/A+QRzBqJjz3dvz2CHkOt/1WAAmADGN8CCoANYHwLKAA2gPEtoADYAMa3gAJgAxjfAgqADWB8CygANoDxLaAA2ADGt4ACYAMY3wIKgA1gfAsoADaA8S2gANgAxreAAmADGN8CCoANYPwXvNgLU7H9YGIAAAAASUVORK5CYII="></image>
+    </defs>
+    <g id="Web-/-Icons-/-Consumer-/-Flag-/-Deutsch" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Background---Surface" fill="#FFFFFF" cx="12" cy="12" r="11"></circle>
+        <circle id="Background---Border" stroke="#F2F2F2" cx="12" cy="12" r="11.5"></circle>
+        <circle id="Flag---Image" fill="url(#pattern-1)" cx="12" cy="12" r="9"></circle>
+    </g>
+</svg>

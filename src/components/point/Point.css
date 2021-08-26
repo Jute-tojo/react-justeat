@@ -1,0 +1,122 @@
+body {
+    font-family: "Takeaway Sans", "Avant Garde", "Century Gothic", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0
+}
+
+.jumbo {
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.h1_second_header {
+    margin: 70px 0;
+    color: white;
+    text-align: center;
+    font-size: 47px;
+    font-weight: bold;
+    font-family: "Takeaway Sans Bold", "Avant Garde", "Century Gothic", Helvetica, Arial, sans-serif;
+}
+
+.fast_selection {
+    text-align: center;
+    /*padding: 10.5px 30.5px 10.5px 10.5px;*/
+    padding: 18px 0px;
+}
+
+.second {
+    background-color: #f8f5f2;
+}
+
+.arti {
+    border: 1px solid hsla(0, 0%, 0%, 0.178);
+    background-color: white;
+    font-size: 0.9em;
+}
+
+.left_section {
+    border: 1px solid hsla(0, 0%, 0%, 0.178);
+    text-align: center;
+    height: 235px ! important;
+    border-radius: 2px;
+}
+
+.h1_bienvenue {
+    margin-bottom: 6px;
+    font-family: "Takeaway Sans Bold", "Avant Garde", "Century Gothic", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(13, 70, 89);
+    line-height: 1.25;
+    padding-top: 15px;
+}
+
+.p_bienvenue {
+    margin: 0px 0px 0.5em;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.section_main {
+    padding-top: 25px;
+}
+
+.je_me_connecte {
+    font-family: "Takeaway Sans Bold", "Avant Garde", "Century Gothic", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    background-color: #1574f5;
+    border: none;
+    width: 100%;
+    padding: 9.5px 28px;
+}
+
+.ligne1 {
+    background-color: rgb(13 70 89);
+}
+
+.p_profiter {
+    color: white;
+    margin-top: 15px;
+}
+
+.text-size {
+    font-size: 12px;
+}
+
+.ligne3 {
+    background-color: rgb(255 128 0);
+    height: 120px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+.p_reduction_right {
+    color: black;
+}
+
+.p_reduction {
+    margin: 35px 15px 25px;
+}
+
+.in_art {
+    background-color: white;
+    margin: 0;
+    padding: 0px;
+}
+
+.right_art {
+    right: 0;
+}
+
+.container {
+    max-width: 1075px!important;
+}
+
+.pub {
+    height: 90px;
+    color: black;
+}

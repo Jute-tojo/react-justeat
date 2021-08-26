@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon / 24x24 / Flag / UK</title>
+    <defs>
+        <ellipse id="path-1" cx="9.00071685" cy="9" rx="9.00071685" ry="9"></ellipse>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Header" transform="translate(-1392.000000, -24.000000)">
+            <g id="Group" transform="translate(1392.000000, 24.000000)">
+                <circle id="Oval" fill="#FFFFFF" cx="12" cy="12" r="12"></circle>
+                <g id="flag-switzerland">
+                    <path d="M0,12.0014335 C0,5.38430295 5.38207885,0 12,0 C18.6179211,0 24,5.38430295 24,12.0014335 C24,18.6185641 18.6179211,24 12,24 C5.38207885,24 0,18.6185641 0,12.0014335 Z M23.0021505,12.0014335 C23.0021505,5.93477482 18.0673835,1.0005973 12,1.0005973 C5.93261649,1.0005973 0.997849462,5.93477482 0.997849462,12.0014335 C0.997849462,18.0680922 5.93261649,23.0022697 12,23.0022697 C18.0673835,23.0022697 23.0021505,18.0680922 23.0021505,12.0014335 L23.0021505,12.0014335 Z" id="Border" fill="#EFF3F5" fill-rule="nonzero"></path>
+                    <g id="Flag" transform="translate(2.999283, 3.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Oval" fill="#D52B1E" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <g id="Flag_of_Denmark" mask="url(#mask-2)" fill-rule="nonzero">
+                            <g transform="translate(-2.999283, 0.000000)" id="Path">
+                                <polygon fill="#C60C30" points="0 0 24 0 24 18 0 18"></polygon>
+                                <polygon fill="#FFFFFF" points="0 7.71428571 7.78378378 7.71428571 7.78378378 0 10.3783784 0 10.3783784 7.71428571 24 7.71428571 24 10.2857143 10.3783784 10.2857143 10.3783784 18 7.78378378 18 7.78378378 10.2857143 0 10.2857143"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

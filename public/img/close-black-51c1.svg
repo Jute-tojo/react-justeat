@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="10px" viewBox="0 0 9 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>2 - Icons/TA-Icons/17x17/plus</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M14,8 L10,8 L10,4 C10,3.448 9.553,3 9,3 C8.447,3 8,3.448 8,4 L8,8 L4,8 C3.447,8 3,8.448 3,9 C3,9.552 3.447,10 4,10 L8,10 L8,14 C8,14.553 8.447,15 9,15 C9.553,15 10,14.553 10,14 L10,10 L14,10 C14.553,10 15,9.552 15,9 C15,8.448 14.553,8 14,8" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MMP-03.4-Users-Groups-Management-Rule-Cahnge-Alert" transform="translate(-1006.000000, -490.000000)">
+            <g id="Details" transform="translate(410.000000, 314.000000)">
+                <g id="2---Icons/TA-Icons/17x17/plus" transform="translate(600.500000, 180.500000) rotate(45.000000) translate(-600.500000, -180.500000) translate(592.000000, 172.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Page-1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <g id="1---Colors/Secondary/darkblue-0A3847" mask="url(#mask-2)" fill="#0A3847" fill-rule="evenodd">
+                        <rect id="Rectangle-2" x="0" y="0" width="17" height="17"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
