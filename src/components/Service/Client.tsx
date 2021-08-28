@@ -18,17 +18,17 @@ export class Client extends Component {
                     <div className="col-lg-4 col-sm-12">
                         <p>
                             J'ai une ...                    </p>
-                        <a name="" id="" className="btn btn-primary rond btn-sm" href="#" role="button">Réclamation</a>
-                        <a name="" id="" className="btn btn-primary rond btn-sm" href="#" role="button">Question</a>
-                        <a name="" id="" className="btn btn-primary rond btn-sm" href="#" role="button">Suggestion</a>
+                        <a id="" className="btn btn-primary rond btn-sm" href="#" role="button">Réclamation</a>
+                        <a id="" className="btn btn-primary rond btn-sm" href="#" role="button">Question</a>
+                        <a id="" className="btn btn-primary rond btn-sm" href="#" role="button">Suggestion</a>
                     </div>
                                 <div className="col-8 mt-sm-3 mt-lg-0">
                         <p className="">
                             Autre motif :                    </p>
-                            <a name="" id="" className="btn btn-primary rond btn-sm" href="#" role="button">Je suis propriétaire d'un restaurant</a>
-                            <a name="" id="" className="btn btn-primary rond btn-sm" href="#" role="button">Je suis membre de la presse</a>
-                            <a name="" id="" className="btn btn-primary rond btn-sm" href="#" role="button">J'ai une proposition marketing</a>
-                            <a name="" id="" className="btn btn-primary rond btn-sm" href="#" role="button">Je suis administrateur de Takeaway Pay</a>
+                            <a id="" className="btn btn-primary rond btn-sm" href="#" role="button">Je suis propriétaire d'un restaurant</a>
+                            <a id="" className="btn btn-primary rond btn-sm" href="#" role="button">Je suis membre de la presse</a>
+                            <a id="" className="btn btn-primary rond btn-sm" href="#" role="button">J'ai une proposition marketing</a>
+                            <a id="" className="btn btn-primary rond btn-sm" href="#" role="button">Je suis administrateur de Takeaway Pay</a>
                                         </div>
                 </div>
             </div>

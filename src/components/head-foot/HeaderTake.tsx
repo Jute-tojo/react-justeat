@@ -4,7 +4,16 @@ import './Header.css';
 import { faAngleLeft } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
-export class HeaderTake extends Component {
+type IState = {    
+    title?: String;
+}
+
+export class HeaderTake extends React.Component<IState, any> {
+
+    constructor(props: any){
+        super(props);
+    }
+
     render() {
         return <header className="head">
                     <div className="barnav head">
@@ -29,7 +38,7 @@ export class HeaderTake extends Component {
                     <div className="head-end">
                     <img src="https://takeawaypayprod.azureedge.net/landing-page/contact-phone-icon-blue-4ccf.svg" className="me-4" alt="contact via phone"/>
                     <img src="https://takeawaypayprod.azureedge.net/landing-page/contact-email-icon-blue-1fa9.svg" className="me-5" alt="contact via email"></img>    
-                    <a href="/takeawaypay/login" class="btn border text-primary me-3" id="header-login-button"><b className="fs-conx">Se connecter</b></a>
+                    <a href="/takeawaypay/login" className="btn border text-primary me-3" id="header-login-button"><b className="fs-conx">Se connecter</b></a>
                         <div className="flag">
                             <svg viewBox="0 0 24 24"
                                 width="1em" height="1em" role="presentation" focusable="false"

@@ -23,7 +23,7 @@ export class Takeaway extends Component {
             <div className="col-sm-6">
               <div className="monvideo">
                 <div className="videoWrapper-b36f">
-                  <video classNameName="video" width="720" height="440" controls preload="auto" src="videos/Takeaway Pay - Révolutionnez vos repas au travail.mp4">Your browser does not support videos</video>
+                  <video className="video" width="720" height="440" controls preload="auto" src="videos/Takeaway Pay - Révolutionnez vos repas au travail.mp4">Your browser does not support videos</video>
                 </div>
               </div>
             </div>
@@ -58,7 +58,7 @@ export class Takeaway extends Component {
             <div className="row">
               <div className="col-sm-4">
                 <div className="card ca">
-                  <img className="card-img-top img-circle" src="./img/happier-employees-d329.png" className="card-img-top" alt="..."/>
+                  <img className="card-img-top img-circle" src="./img/happier-employees-d329.png" alt="..."/>
                   <div className="card-body">
                     <h5 className="card-title">Happier employees</h5>
                     <p className="card-text">Give your teams a benefit they'll love while investing in well-being and productivity gains. Total rewards, delivered.</p>
@@ -67,7 +67,7 @@ export class Takeaway extends Component {
               </div>
               <div className="col-sm-4">
                 <div className="card ca">
-                  <img className="card-img-top img-circle" src="./img/easy-budget-management-6ca8.png" className="card-img-top" alt="..."/>
+                  <img className="card-img-top img-circle" src="./img/easy-budget-management-6ca8.png" alt="..."/>
                   <div className="card-body">
                     <h5 className="card-title">Easy budget management</h5>
                     <p className="card-text">Say goodbye to complicated expense reports and overspending. Get clear insights and maintain full control.</p>
@@ -76,7 +76,7 @@ export class Takeaway extends Component {
               </div>
               <div className="col-sm-4">
                 <div className="card ca">
-                  <img className="card-img-top img-circle" src="./img/scalable-and-flexible-3aa8.svg" className="card-img-top" alt="..."/>
+                  <img className="card-img-top img-circle" src="./img/scalable-and-flexible-3aa8.svg" alt="..."/>
                   <div className="card-body">
                     <h5 className="card-title">Flexible and scalable</h5>
                     <p className="card-text">An adaptable solution that grows with your business. Easily adjustable to match your company's changing needs.</p>

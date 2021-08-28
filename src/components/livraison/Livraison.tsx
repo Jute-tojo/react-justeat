@@ -9,7 +9,7 @@ import { Liste } from './Liste';
 export class Livraison extends Component {
     render(){
         return <div>   
-            <Header ttle="Où souhaitez-vous être livré?" />   
+            <Header title="Où souhaitez-vous être livré?" />   
             <Type />
             <div className="container-md">
               <FilterNavigation />

@@ -5,14 +5,19 @@ import { faAngleLeft, faBars } from "@fortawesome/free-solid-svg-icons";
 import { Modal } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
+type IState = {    
+    show?: boolean;
+    title?: String;
+}
 
-export class Header extends Component {
-    constructor() {
-        super()
-        this.state = {
-            show: false
-        }
+export class Header extends React.Component<IState, any> {
+    constructor(props: any){
+        super(props);
+        
+        this.state = { show: false };
     }
+  
+   
     handleModal() {
         this.setState({ show: !this.state.show })
     }
@@ -75,12 +80,12 @@ export class Header extends Component {
                             <img src="./img/profile.png" alt="smile profil" className="float-start me-3" width="60px" />
                             <div className="profile flex flex-column text-white">
                                 <h4 className="name">Mon compte</h4>
-                                <a href="/moncompte/my-details" className="text-white">
-                                    <span className="personal-information js-opt-in"><u>Voir données personnelles</u></span>
+                                <a href="/moncompte/my-details">
+                                    <span className="personal-information js-opt-in"><u><a className="text-white" href="https://www.just-eat.fr/moncompte/my-details">Voir données personnelles</a> </u></span>
                                 </a>
                             </div>
                             <div>
-                                <a href="d" className="btn text-white fermer" onClick={() => { this.handleModal() }}>X</a>
+                                <a href="#" className="btn text-white fermer" onClick={() => { this.handleModal() }}>X</a>
                             </div>
                         </section>
                         <section className="bottom-content bg-white mt-4 shadow p-3">

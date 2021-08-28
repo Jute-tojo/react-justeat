@@ -1,6 +1,6 @@
 import './App.css';
 import { Home } from './components/Home';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Client } from './components/Service/Client';
 import { Takeaway } from './components/takeaway/Takeaway';
 import { Point } from './components/point/Point';

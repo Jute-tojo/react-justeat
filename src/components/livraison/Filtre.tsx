@@ -4,22 +4,28 @@ import React, { Component } from "react";
 import {RatingStar} from "./RatingStar";
 import "./css/Filtre.css";
 
-export class Filtre extends Component {
-    constructor(props){
-        super(props)
-        this.state={
-            checkVisibleOuvert:false,
-            checkVisibleGratuit:false
-        }
+type IState = {    
+    checkVisibleOuvert?: boolean;
+    checkVisibleGratuit?: boolean;
+    title?: String;
+}
+
+export class Filtre extends React.Component<IState, any> {
+    constructor(props: any){
+        super(props);
+        
+        this.state = { checkVisibleOuvert:false,
+            checkVisibleGratuit:false };
     }
+
     toggleBox1 = () => {   
-            this.setState(val => ({
-                checkVisibleOuvert: !val.checkVisibleOuvert
+            this.setState(() => ({
+                checkVisibleOuvert: !this.state.checkVisibleOuvert
             }))                  
     }
     toggleBox2 = () => {   
-        this.setState(val => ({
-            checkVisibleGratuit: !val.checkVisibleGratuit
+        this.setState(() => ({
+            checkVisibleGratuit: !this.state.checkVisibleGratuit
         }))                  
 }
     render(){
@@ -72,7 +78,7 @@ export class Filtre extends Component {
                         <h3>Évaluations du restaurant <FontAwesomeIcon icon={faInfoCircle} className="color-blue"/></h3>
                     </div>
                     <div className="col-12">
-                        <RatingStar color="color-orange"/>
+                        <RatingStar/>
                     </div>
                 </div>
                 <div className="item row mb-2 mt-5">

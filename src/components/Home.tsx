@@ -21,7 +21,7 @@ export class Home extends Component {
                         <div className="deliveryareapanel clear">
                             <div className="lp">
                                 <div className="lp__container inputs">
-                                    <input className="lp__input active autocompletesearch nofocus outer location-panel-search-input" id="imysearchstring" maxLength="100" name="mysearchstring" placeholder="Adresse, par ex. 1 Avenue de l'Europe" type="text" defaultValue=""/>
+                                    <input className="lp__input active autocompletesearch nofocus outer location-panel-search-input" id="imysearchstring" name="mysearchstring" placeholder="Adresse, par ex. 1 Avenue de l'Europe" type="text" defaultValue=""/>
                                     <div id="geolocationnotice"></div>
                                     <div className="deliveryareaerror" id="ideliveryareaerror"></div>
                                     <div id="mapdummy"></div>
@@ -29,7 +29,7 @@ export class Home extends Component {
                                         <i className="icon-ta-close-v2"></i>
                                     </div>
                                 </div>
-                                <a className="lp__search-button extralargebutton text-white" href="#" id="submit_deliveryarea" title="Voir restaurants">
+                                <a className="lp__search-button extralargebutton text-white" href="http" id="submit_deliveryarea" title="Voir restaurants">
                                     Continuer            </a>
                                 <div className="lp__places-container autoCompleteDropDown">
                                     <div className="suggestions">
